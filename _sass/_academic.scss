@@ -1,0 +1,104 @@
+/* Academic site refinements */
+
+:root {
+  --academic-navy: #15324a;
+  --academic-blue: #1f6685;
+  --academic-pale: #f3f7f9;
+}
+
+body { letter-spacing: 0.005em; }
+
+.masthead {
+  border-bottom: 1px solid rgba(21, 50, 74, 0.12);
+  box-shadow: 0 2px 14px rgba(21, 50, 74, 0.04);
+}
+
+.greedy-nav .visible-links a:before {
+  height: 3px;
+  background: var(--academic-blue);
+}
+
+.page__title, .archive__item-title, .author__name { color: var(--academic-navy); }
+
+.page__content h2 {
+  margin-top: 2.2rem;
+  border-bottom-color: rgba(31, 102, 133, 0.22);
+}
+
+.page__content a, .archive a {
+  color: var(--academic-blue);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.academic-kicker {
+  margin-top: -0.35rem !important;
+  color: var(--academic-blue);
+  font-size: 0.82rem !important;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.academic-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.academic-actions .btn {
+  margin: 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.academic-actions .btn--primary { background: var(--academic-blue); }
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.interest-card {
+  padding: 1.15rem 1.25rem;
+  border: 1px solid rgba(31, 102, 133, 0.15);
+  border-radius: 6px;
+  background: var(--academic-pale);
+}
+
+.interest-card h3 {
+  margin: 0 0 0.45rem;
+  color: var(--academic-navy);
+  font-size: 1rem;
+}
+
+.interest-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.section-link { margin-top: 1.5rem !important; font-weight: 600; }
+.archive__item { margin-bottom: 1.8rem; }
+.archive__item-title { line-height: 1.35; }
+.author__avatar img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 28%;
+  background: #eef2f4;
+  border-color: rgba(21, 50, 74, 0.16);
+}
+.author__bio { color: #425466; }
+
+*:focus-visible {
+  outline: 3px solid rgba(31, 102, 133, 0.45);
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .interest-grid { grid-template-columns: 1fr; }
+  .academic-actions .btn { width: 100%; text-align: center; }
+}

@@ -1,13 +1,9 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications and Preprints"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
@@ -15,7 +11,8 @@ author_profile: true
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
+    {% assign ordered_publications = site.publications | sort: "order" %}
+    {% for post in ordered_publications %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -27,7 +24,8 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
+  {% assign ordered_publications = site.publications | sort: "order" %}
+  {% for post in ordered_publications %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
