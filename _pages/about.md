@@ -32,6 +32,10 @@ My research develops analytical and data-driven methods for sequential decision-
 
 ## Publications and Preprints
 
+### Proportional Fairness at Departure: Asymptotically Optimal Electric Vehicle Charging
+
+With Hailun Zhang and Jiheng Zhang. Working Paper.
+
 ### When to Match: A Cost-Balancing Principle for Dynamic Markets
 
 With Hailun Zhang and Jiheng Zhang. Under review at *Manufacturing & Service Operations Management*. [Preprint](https://arxiv.org/pdf/2601.21858)
