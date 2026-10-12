@@ -7,7 +7,7 @@ permalink: /publication/fairness-ev-charging
 venue: "Working Paper"
 title_link: false
 authors: "Jie Liu, Hailun Zhang, and Jiheng Zhang"
-excerpt: false
+show_excerpt: false
 ---
 
 Joint work with Hailun Zhang and Jiheng Zhang. Working Paper.
