@@ -5,25 +5,25 @@ permalink: /research/
 author_profile: true
 ---
 
-My research lies at the intersection of operations research, economics, and data-driven decision-making. I study how firms and platforms can make better decisions when demand, information, and strategic behavior evolve over time.
+I use stochastic models and game theory to study how firms make decisions under uncertain demand, limited capacity, and competition. My work connects pricing and revenue management with information disclosure, dynamic matching, and fair resource allocation.
 
 ## Research themes
 
 ### Pricing and revenue management
 
-I study pricing, inventory allocation, and selling mechanisms in dynamic markets. Current work examines the value of opaque selling and how information affects competition and operational performance.
+I study how firms price and allocate limited inventory over time. My work on opaque selling examines when flexible product offerings enable inventory pooling. Current research also studies inventory disclosure in dynamic price competition, with applications to markets for perishable products such as airline tickets and hotel rooms.
 
 ### Dynamic markets and stochastic models
 
-My work develops tractable principles for sequential decisions under uncertainty. In dynamic matching markets, I study how a cost-balancing perspective can guide the timing of matching decisions.
+I develop policies for systems in which demand arrives over time and capacity is limited. In dynamic matching markets, I study how a cost-balancing principle can guide when to match. My current work on electric vehicle charging examines scheduling and fair service allocation when vehicles differ in their charging needs and departure times.
 
 ### Game theory and strategic operations
 
-I use game-theoretic models to examine interactions among firms, customers, and regulators. This includes research on carbon regulation, green technology innovation, and strategic operational decisions.
+I use game-theoretic models to understand how information and incentives shape firms' decisions. One line of work examines how inventory transparency affects pricing and competition over time. Another studies how different forms of carbon regulation influence firms' incentives to invest in green technology.
 
 ### Data-driven decision-making
 
-I am interested in connecting analytical models with data and algorithms for complex operational systems, including transportation, logistics, and revenue-management applications.
+I am interested in connecting analytical models with observed system states and operational data to support decisions in transportation and logistics. My applied work includes airline revenue management and integrated port scheduling, combining modeling, numerical analysis, and algorithm development.
 
 ## Applied research
 

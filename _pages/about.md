@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-<p class="academic-kicker">Operations Research · Revenue Management · Data-Driven Decisions</p>
+<p class="academic-kicker">Stochastic Models · Game Theory · Revenue Management · Data-Driven Decisions</p>
 
 I am a Postdoctoral Fellow in the [Department of Industrial Engineering and Decision Analytics](https://ieda.ust.hk/) at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Jiheng Zhang.
 
 I received my Ph.D. in Data Science from the School of Data Science at The Chinese University of Hong Kong, Shenzhen (CUHK(SZ)). I was fortunate to be supervised by Prof. Zizhuo Wang and Prof. Hailun Zhang, and I am deeply grateful for their guidance and support.
 
-My research develops analytical and data-driven methods for sequential decision-making in dynamic markets. I am particularly interested in game theory, pricing and revenue management, stochastic models, and the design of operational policies under uncertainty.
+My research uses stochastic models and game theory to study decisions under uncertainty and competition. I focus on pricing and revenue management, information disclosure in dynamic markets, and the allocation of limited resources, with applications to matching markets, transportation, and electric vehicle charging.
 
 <div class="academic-actions">
   <a class="btn btn--primary" href="/research/">Explore my research</a>
@@ -24,13 +24,17 @@ My research develops analytical and data-driven methods for sequential decision-
 ## Research interests
 
 <div class="interest-grid">
-  <div class="interest-card"><h3>Pricing &amp; Revenue Management</h3><p>Pricing, inventory, and information design in uncertain and competitive markets.</p></div>
-  <div class="interest-card"><h3>Stochastic Models</h3><p>Dynamic models and principled policies for sequential operational decisions.</p></div>
-  <div class="interest-card"><h3>Game Theory</h3><p>Strategic interactions among firms, platforms, customers, and regulators.</p></div>
+  <div class="interest-card"><h3>Pricing &amp; Revenue Management</h3><p>Dynamic pricing, inventory pooling, and selling mechanisms under uncertain demand.</p></div>
+  <div class="interest-card"><h3>Stochastic Models</h3><p>Matching decisions, charging schedules, and fair resource allocation in dynamic systems.</p></div>
+  <div class="interest-card"><h3>Game Theory</h3><p>Information disclosure, price competition, and firms' responses to environmental regulation.</p></div>
   <div class="interest-card"><h3>Data-Driven Decision-Making</h3><p>Combining operational models, algorithms, and data to improve complex systems.</p></div>
 </div>
 
 ## Publications and Preprints
+
+### Inventory Disclosure in Dynamic Price Competition
+
+With Xingyu Fu, Zizhuo Wang, and Ying-Ju Chen. Working Paper.
 
 ### Proportional Fairness at Departure: Asymptotically Optimal Electric Vehicle Charging
 
